@@ -1,3 +1,5 @@
+package week01;
+
 import java.util.Scanner;
 
 public class Lab1 {
@@ -277,7 +279,7 @@ public class Lab1 {
         System.out.println("------------------------------");
 
 
-        // 15. Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered (End loop use -1 , Don’t count -1).
+        // 15. Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered (End loop use -1 , Don’weeh01.t count -1).
         System.out.println("======Positive, Negative and Zero Count Program======");
         int countPositive = 0, countNegative = 0, countZero = 0, userInput;
 
