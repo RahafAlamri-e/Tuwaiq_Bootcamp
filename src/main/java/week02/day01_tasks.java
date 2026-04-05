@@ -95,7 +95,7 @@ public class day01_tasks {
             }
         }
 
-ة        for (int num : array5) {
+        for (int num : array5) {
             if (num % 2 == 0) {
                 result.add(num);
             }
