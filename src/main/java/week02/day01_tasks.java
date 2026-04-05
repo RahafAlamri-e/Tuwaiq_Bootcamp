@@ -1,5 +1,6 @@
 package week02;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class day01_tasks {
@@ -25,19 +26,22 @@ public class day01_tasks {
         int[] array2 = {1, 4, 17, 7, 25, 3, 100};
 
         int sum = 0;
-        for (int i = 0; i < array2.length; i++) {
-            sum += array2[i];
+        for (int num : array2) {
+            sum += num;
         }
 
-        double average = (double) sum / array2.length;
-        System.out.println("Average value of the array: " + average);
+        double avg = (double) sum / array2.length;
 
-        System.out.println("Numbers greater than the average are:");
-        for (int i = 0; i < array2.length; i++) {
-            if (array2[i] > average) {
-                System.out.print(array2[i] + ", ");
+        ArrayList<Integer> greater = new ArrayList<>();
+
+        for (int num : array2) {
+            if (num > avg) {
+                greater.add(num);
             }
         }
+
+        System.out.println("Average: " + avg);
+        System.out.println("Greater than average: " + greater);
         System.out.println("\n-----------------------");
 
 
@@ -78,29 +82,27 @@ public class day01_tasks {
         System.out.println("-----------------------");
 
 
-
         //5. Write a program that places the odd elements of an array before the even elements.
         //Original Array: [2,3,40,1,5,9,4,10,7]
         //Sample Output: [3,1,5,9,7,2,40,4,10]
         int[] array5 = {2, 3, 40, 1, 5, 9, 4, 10, 7};
-        int[] newArray2 = new int[array5.length];
 
-        int index = 0;
-        for (int i = 0; i < array5.length; i++) {
-            if (array5[i] % 2 != 0) {
-                newArray2[index++] = array5[i];
+        ArrayList<Integer> result = new ArrayList<>();
+
+        for (int num : array5) {
+            if (num % 2 != 0) {
+                result.add(num);
             }
         }
 
-        for (int i = 0; i < array5.length; i++) {
-            if (array5[i] % 2 == 0) {
-                newArray2[index++] = array5[i];
+ة        for (int num : array5) {
+            if (num % 2 == 0) {
+                result.add(num);
             }
         }
 
-        System.out.println(Arrays.toString(newArray2));
+        System.out.println(result);
         System.out.println("-----------------------");
-
 
 
         //6. Write a program that test the equality of two arrays.
