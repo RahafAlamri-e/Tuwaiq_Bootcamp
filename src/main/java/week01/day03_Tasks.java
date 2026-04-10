@@ -150,7 +150,7 @@ public class day03_Tasks {
             reversed += word.charAt(i);
         }
 
-        if (word.equals(reversed)) {
+        if (word.equalsIgnoreCase(reversed)) {
             System.out.println(word + " is a palindrome.");
         } else {
             System.out.println(word + " is not a palindrome.");

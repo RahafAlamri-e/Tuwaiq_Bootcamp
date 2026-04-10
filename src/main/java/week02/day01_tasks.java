@@ -70,9 +70,7 @@ public class day01_tasks {
         int[] array4 = {20, 30, 40};
         int[] newArray = new int[array4.length];
 
-        for (int i = 0; i < array4.length; i++) {
-            newArray[i] = array4[i];
-        }
+        System.arraycopy(array4, 0, newArray, 0, array4.length);
 
         int firstIndex = newArray[0];
         newArray[0] = newArray[newArray.length - 1];
