@@ -38,4 +38,4 @@ Run the application using your IDE's Spring Boot runner.
 👩‍💻 About the Author
 I am a Software Engineering graduate and a certified QA professional, currently enhancing my backend development skills to become a well-rounded engineer.
 
-Connect with me on * **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/rahafalamri0) for more updates on my journey!
+Connect with me on** [LinkedIn](https://www.linkedin.com/in/rahafalamri0) for more updates on my journey!
