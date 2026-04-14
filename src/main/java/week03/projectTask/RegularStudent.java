@@ -1,4 +1,4 @@
-package week03.tasks;
+package week03.projectTask;
 
 public class RegularStudent extends Student {
 

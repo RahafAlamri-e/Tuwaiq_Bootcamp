@@ -1,6 +1,4 @@
-package week03.tasks;
-
-import java.sql.Time;
+package week03.projectTask;
 
 public class Course {
     private String courseName;

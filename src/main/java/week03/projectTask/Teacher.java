@@ -1,4 +1,4 @@
-package week03.tasks;
+package week03.projectTask;
 
 public class Teacher extends Person{
     private int salary;
