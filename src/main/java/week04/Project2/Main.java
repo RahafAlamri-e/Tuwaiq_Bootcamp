@@ -78,7 +78,7 @@ public class Main {
 //                    isSubscriber = input.nextBoolean();
 //                    break;
 //                }
-//                System.out.println("Invalid input.");
+//                System.out.println("Invalid input");
 //                input.next();
 //            }
 //
@@ -90,7 +90,7 @@ public class Main {
 //                        hasCoupon = input.nextBoolean();
 //                        break;
 //                    }
-//                    System.out.println("Invalid input.");
+//                    System.out.println("Invalid input");
 //                    input.next();
 //                }
 //            }
@@ -108,7 +108,7 @@ public class Main {
 //                    if (choice >= 1 && choice <= 3) {
 //                        break;
 //                    } else {
-//                        System.out.println("Invalid choice, try again.");
+//                        System.out.println("Invalid choice, try again");
 //                    }
 //                }
 //
@@ -125,9 +125,9 @@ public class Main {
 //
 //            try {
 //                passengers[i].reserveCar(selectedCar);
-//                System.out.println("Reservation successful.");
+//                System.out.println("Reservation successful");
 //            } catch (Exception e) {
-//                System.out.println("Sorry, the car is full for this trip.");
+//                System.out.println("Sorry, the car is full for this trip");
 //            }
 //        }
 //
